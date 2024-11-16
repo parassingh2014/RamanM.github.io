@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #FF651C;
+    --dark-theme: #373737;
+}
+
+nav {
+    color: var(--primary-color) !important;    
+}
+img{max-width: 100%;}
+a{color: var(--primary-color);}
+a:hover{color: #CB612F; text-decoration: none;}
+.text-primary{ color: var(--primary-color);}
+ul li:hover{color: #CB612F;}
+button.top-button{
+border: 2px solid var(--primary-color);
+font-weight: 500;
+letter-spacing: 2px;
+text-transform: uppercase;
+transition: all 0.3s ease;
+}
+/* HOME */
+.bg-gray{
+    background: rgba(254, 196, 72, 0.1);
+}
+/* .bg-dark{
+    background: var(--dark-theme) I !important;
+} */
